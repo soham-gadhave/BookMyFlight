@@ -1,0 +1,132 @@
+* {
+	font-family: 'Muli';
+	box-sizing: border-box;
+	color: #236B8E; 
+}
+
+.mid{
+	margin: 5% auto;
+	width: 45%;
+	padding-top: 5%;
+	background-color: #D4EFFF;
+	overflow: hidden;
+	padding-bottom: 5%;
+	border-radius: 50px;
+}
+
+/*body {
+	background-color: #D4EFFF;
+}
+*/
+.inputCellWidth {
+	/*background-color: yellow; */
+	/*width: 25%;*/
+	padding: 15px;
+}
+
+#DCCard {
+	/*width: 65%;	*/
+}
+
+#colWidth1 {
+	width: 15%;
+}
+
+#colWidth3 {
+	width: 25%;
+}
+
+#colWidth3 {
+	width: 15%;
+}
+
+#colWidth4 {
+	width: 35%;
+}
+
+.field {
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	/*border: green;*/
+}
+
+.dateField {
+	width: 50%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+input[type="payment"] {
+	/*box-sizing: border-box;*/
+	width: 100%;
+	padding: 15px;
+	border-radius: 5px;
+	outline: none;
+	border: none; 
+}
+
+input[type="number"] {
+	/*box-sizing: border-box;*/
+	width: 100%;
+	padding: 15px;
+	border-radius: 5px;
+	outline: none;
+	border: none; 
+}
+
+input[type="submit"] {
+	/*box-sizing: border-box;*/
+	/*width: 100%;*/
+	float: right; 
+	color: white;
+	background-color: #236B8E;
+	padding: 15px;
+	border-radius: 5px;
+	outline: none;
+	border: none; 
+}
+
+input[type="password"] {
+	width: 100%;
+	padding: 15px;
+	border-radius: 5px;
+	outline: none;
+	border: none; 
+}
+
+select {
+	/*box-sizing: border-box;*/
+	width: 48.7%;
+	padding: 15px;
+	border-radius: 5px;
+	outline: none;
+	border: none; 
+}
+
+/*Previous well conditioning code block
+input[type="text"] {
+	box-sizing: border-box;
+	width: 48.7%;
+	padding: 15px;
+	border-radius: 5px;
+	outline: none;
+	border: none; 
+}*/
+
+table {
+	margin: 0 auto;
+	float: center;
+	padding: 20px;
+}
+
+@media only screen and (max-width: 1500px) {
+	select {
+		/*box-sizing: border-box;*/
+		width: 100%;
+		padding: 15px;
+		border-radius: 5px;
+		outline: none;
+		border: none; 
+	}
+}

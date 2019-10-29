@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Add Payment Method
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/payment.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+</head>
+<body>
+	<script src="javascript/payment.js"></script>
+	<form class="mid">
+		<h1 style="text-align: center; color: #236B8E;">Add a payment method</h1>
+		<table id="payTable">
+			<tr>
+				<th id="colWidth1"></th>
+				<th id="colWidth2"></th>
+				<th id="colWidth3"></th>
+				<th id="colWidth4"></th>
+			</tr>
+			<tr>
+				<td>First Name</td>
+				<td class="inputCellWidth"><input class="field" type="payment" placeholder="First Name"></input></td>
+				<td>Last Name</td>
+				<td class="inputCellWidth"><input class="field" type="payment" placeholder="Last Name"></input></td>
+
+			</tr>
+			<tr>
+				<td>Debit Card Number</td>
+				<td class="inputCellWidth" colspan="3"><input class="field" id="cardNumber" type="number" placeholder="16-digit Card number"></input></td>
+			</tr>
+			<tr>
+				<td>CVV</td>
+				<td class="inputCellWidth"><input class="field" type="password" placeholder="3-digit CVV" maxlength="3"></input></td>
+				<td class="textCell">Valid Thru</td>
+				<td class="inputCellWidth" id="validThru">
+					<select>
+						<option>01</option>
+						<option>02</option>
+						<option>03</option>
+						<option>04</option>
+						<option>05</option>
+						<option>06</option>
+						<option>07</option>
+						<option>08</option>
+						<option>09</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+					</select>
+					<select>
+						<option>2040</option>
+						<option>2039</option>
+						<option>2038</option>
+						<option>2037</option>
+						<option>2036</option>
+						<option>2035</option>
+						<option>2034</option>
+						<option>2033</option>
+						<option>2032</option>
+						<option>2031</option>
+						<option>2030</option>
+						<option>2029</option>
+						<option>2028</option>
+						<option>2027</option>
+						<option>2026</option>
+						<option>2025</option>
+						<option>2024</option>
+						<option>2023</option>
+						<option>2022</option>
+						<option>2021</option>
+						<option>2020</option>
+						<option>2019</option>
+					</select>
+					<!-- <input class="dateField" type="text" placeholder="MM"></input>	
+					<input class="dateField" type="text" placeholder="YY"></input> -->
+				</td>
+			</tr>
+		</table>
+		<div style="padding-right: 5.5%;"><input type="submit" value="Save details" onclick="validateCardNumber()"></input></div>
+	</form>
+</body>
+</html>

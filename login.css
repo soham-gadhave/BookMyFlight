@@ -1,0 +1,76 @@
+* {
+	font-family: "Muli";
+}
+
+body {
+	background-color: #236B8E;
+}
+
+.mid {
+	margin: 10% auto;
+	width: 460px; /*30%*/
+	background-color: #236B8E;
+	overflow: hidden;
+	border-radius: 50px; 
+	/*position: absolute;*/
+	/*z-index: 1;*/
+}
+
+.pad {
+	padding-top: 10%;
+	padding-bottom: 5%;
+	background-color: #dedede;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.field {
+	margin: 0 auto;
+	/*background-color: yellow;*/
+	/*float: center;*/
+	text-align: center;
+	padding-top: 50px;
+}
+
+.button {
+	float: right;
+	padding-right: 11.5%;
+	padding-bottom: 5px;
+	width: 60px;
+}
+
+.Link {
+	padding-top: 50px;
+}
+.linkFont {
+	/*padding-top: 20%;*/
+	color: #D4EFFF;
+	padding-left: 12%;
+	text-decoration: none; 
+}
+
+input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	background-color: #D4EFFF;
+	border: none;
+	outline: none;
+	border-radius: 7px;
+}
+
+input[type="email"] {
+	margin: 0 auto;
+	text-align: center;
+	width: 70%;
+	/*float: center;*/
+	padding: 15px;
+	border-radius: 10px;
+	border: none;
+	outline: none;	
+}
+
+/*@media only screen and (max-width: 768px) {
+	body {
+    	background-color: lightblue;
+  	}
+}*/

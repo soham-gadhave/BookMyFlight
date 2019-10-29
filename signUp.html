@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create an account</title>
+	<link rel="stylesheet" type="text/css" href="css/signUp.css">
+	<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+</head>
+<body>
+	<script src="javascript/signUp.js"></script>
+	<div class="col-12 empty"><h1></h1></div>
+	<div class="col-3"></div>
+	<div class="col-6 mid">
+		<form id="createForm" action="http://localhost/insert.php" method="post">
+			<h1 class="heading">SignUp</h1>
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-4">
+					<input type="text" name="firstName" placeholder="Enter your Firstname">
+				</div>
+				<div class="col-4">
+					<input type="text" name="lastName" placeholder="Enter your Lastname">
+				</div>
+				<div class="col-2"></div>
+			</div>
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-8">
+					<input type="email" name="email" placeholder="Enter your email">	
+				</div>
+				<div class="col-2"></div>
+			</div>
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-4">
+					<input type="text" name="contact" placeholder="Enter your Phone Number">
+				</div>
+				<div class="col-4">
+					<input type="text" name="age" placeholder="Enter your Age">
+				</div>
+				<div class="col-2"></div>
+			</div>
+			<div class="row">
+				<div class="col-2"></div>
+				<div class="col-4">
+					<input id="password" type="password" name="password" placeholder="Enter your Password">
+				</div>
+				<div class="col-4">
+					<input id="repassword" type="password" name="rePassword" placeholder="Re-enter your Password">
+			</div>
+				<div class="col-2"></div>
+			</div>
+			<div class="row">
+				<div class="col-7"></div>
+				<div class="col-3">
+					<input type="submit" name="submit" value="Create Account" onclick="return checkPasswords()">
+				</div>
+				<div class="col-2"></div>
+			</div>
+				<!-- <div class="formElements">
+					<input type="other" name="uPassword" placeholder="Enter your Password">
+					<input type="other" name="uReEnter" placeholder="Re-enter your Password"><br><br>
+				</div>
+				<div id="keepRight">
+					<input type="createAccount" value="Create">
+				</div> -->
+		</form>
+	</div>
+	<div class="col-3"></div>
+</body>
+</html>

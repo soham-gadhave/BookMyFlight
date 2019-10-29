@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		BMF: Home		
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+</head>
+<body>
+	<!-- <div class="row col-16">
+		<div class="col-8"></div>
+		<div class="col-2">
+			<input type="submit" name="login" value="Login">
+		</div>
+		<div class="col-2">
+			<input type="submit" name="login" value="SignUp">
+		</div>
+		<div class="col-2">
+			<input type="submit" name="login" value="Login">
+		</div>
+		<div class="col-2">
+			<input type="submit" name="login" value="Login">
+		</div>
+	</div> -->
+	<ul class="topnav">
+	  <li><a class="active" target="_blank" href="#home">Home</a></li>
+	  <li><a href="signUp.html" target="_blank">SignUp</a></li>
+	  <li><a href="login.html" target="_blank">Login</a></li>
+	  <li class="right"><a href="#about">About</a></li>
+	</ul>
+	<div class="col-16 header1" style="padding: 10%;">
+		<form id="searchForm" action="http://localhost/flightSearch.php" method="post">
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-2">
+					<input type="text" name="source" placeholder="source">
+				</div>
+				<div class="col-1"></div>
+				<div class="col-2">
+					<input type="text" name="destination" placeholder="destination">
+				</div>
+				<div class="col-1"></div>
+				<div class="col-2" style="text-align: center;">
+					<input type="date" name="date" placeholder="date">
+				</div>
+				<div class="col-1"></div>
+				<div class="col-2" style="text-align: center;">
+					<input type="date" name="returnDate" placeholder="return date">
+				</div>
+				<div class="col-1"></div>
+				<div class="col-2">
+					<select class="classType" name="classType">
+						<option>Business</option>
+						<option>Economy</option>
+						<option>First</option>
+					</select>
+					<!-- <input type="text" name="class" placeholder="class"> -->
+				</div>
+				<div class="col-1"></div>
+			</div>
+			<div class="row">
+				<div class="col-7"></div>
+				<div class="col-2">
+					<input type="submit" name="search" value="Search">
+				</div>	
+				<div class="col-7"></div>
+			</div>
+		</form>		
+	</div>
+	<div class="mainArea">
+		<div class="col-16"><h1></h1></div>
+		<div class="row">
+			<div class="col-16">
+				<!-- <h1 class="header2">Offers/Discounts</h1> -->
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4"></div>
+			<div class="col-4">
+				<img src="images/turkishAirlines.png" width="100%" height="100%">
+			</div>
+			<!-- <div class="col-2"></div> -->
+			<div class="col-4">
+				<img src="images/airIndiaOffer.png" width="100%" height="100%">
+			</div>
+			<div class="col-4"></div>
+		</div>
+		<div class="row">
+			<div class="col-4"></div>
+			<div class="col-4">
+				<img src="images/deltaAirlines.png" width="100%" height="100%">
+			</div>
+			<!-- <div class="col-2"></div> -->
+			<div class="col-4">
+				<img src="images/discount.png" width="100%" height="100%">
+			</div>
+			<div class="col-4"></div>
+		</div>
+		<div class="row"><p style="text-align: center; color: black;">Copyrights reserved @2019</p></div>	
+	</div>
+</body>
+</html>
